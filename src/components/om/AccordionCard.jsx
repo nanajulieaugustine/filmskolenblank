@@ -40,7 +40,17 @@ const AccordionCard = () => {
         <div className="flex justify-between items-center py-2 text-(--foreground)">
             <div>
                  <p>Filmskolen Blank henvender sig til alle unge i alderen 15-25, uanset bopæl eller uddannelse. Dog skal alle ansøgere igennem en optagelsesprøve</p>
-                 <Link href="/optagelse"><p className="yellow hover:scale-103 tranistion-all duration-300 pl-5">// Læs mere om optagelse her</p></Link>
+                 <Link href="/optagelse"><p className="yellow hover:scale-103 tranistion-all duration-300 pl-5 uppercase">// Læs mere om optagelse her</p></Link>
+            </div>
+        </div>
+      </AccordionItem>
+        </Accordion>
+
+          <Accordion>
+         <AccordionItem title="// Varighed">
+        <div className="flex justify-between items-center py-2 text-(--foreground)">
+            <div>
+                 <p>Et forløb varer 9 måneder fra den 2. onsdag i september til slutningen af maj.</p>
             </div>
         </div>
       </AccordionItem>
