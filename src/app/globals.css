@@ -11,6 +11,10 @@
   --content-width-lg: max(20px, 50% - 50rem / 2);
 }
 
+.no-padding{
+  padding-inline: 0;
+}
+
 .red{
   color:var(--red);
 }
@@ -21,6 +25,10 @@
 
 .yellow{
   color:var(--yellow);
+}
+
+.white{
+  color:var(--foreground);
 }
 
 body {
@@ -56,6 +64,7 @@ h2{
 
 .heading2-secondary{
   font-size:var(--heading2-secondary);
+  line-height: 1;
 }
 
 h3{

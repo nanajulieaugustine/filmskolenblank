@@ -40,7 +40,7 @@ const AccordionCard = () => {
         <div className="flex justify-between items-center py-2 text-(--foreground)">
             <div>
                  <p>Filmskolen Blank henvender sig til alle unge i alderen 15-25, uanset bopæl eller uddannelse. Dog skal alle ansøgere igennem en optagelsesprøve</p>
-                 <Link href="/optagelse"><p className="yellow hover:scale-103 tranistion-all duration-300 pl-5 uppercase">// Læs mere om optagelse her</p></Link>
+                 <Link href="/optag"><p className="yellow hover:scale-103 tranistion-all duration-300 pl-5 uppercase">// Læs mere om optagelse her</p></Link>
             </div>
         </div>
       </AccordionItem>

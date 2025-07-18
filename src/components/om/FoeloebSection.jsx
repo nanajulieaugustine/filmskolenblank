@@ -5,7 +5,7 @@ import ScrollUp from "../animationer/ScrollUp";
 const ForloebSection = () => {
     return ( 
         <div className="px-(--content-width-lg)">
-            <h2 className="heading2-secondary">forlØb</h2>
+            <h2 className="heading2-secondary mb-10">forlØb</h2>
             <div>
                 <div className="flex flex-col md:flex-row gap-5 relative top-10">
                     <ScrollDwon>
@@ -27,7 +27,7 @@ const ForloebSection = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row gap-5 relative top-10 md:top-20">
+                <div className="flex flex-col md:flex-row gap-5 relative top-10 md:top-0">
                       <div className="md:order-2">
                     <ScrollUp>
                     <Image
@@ -38,7 +38,7 @@ const ForloebSection = () => {
                     />
                     </ScrollUp>
                     </div>
-                    <div className="max-w-[300] md:order-1 relative bottom-15 md:bottom-0">
+                    <div className="max-w-[300] md:order-1 relative bottom-15 md:top-20">
                         <ScrollDwon>
                         <h3>fiktion</h3>
                         <p>I vores fiktionsforløb, trækker vi altid fat i Holbæk Drama
@@ -49,7 +49,7 @@ const ForloebSection = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row gap-5 relative top-20 md:top-30">
+                <div className="flex flex-col md:flex-row gap-5 relative top-20 md:top-0">
                     <ScrollDwon>
                     <Image
                         src={"/om/teaterkoncert_fotos.webp"}
@@ -58,7 +58,7 @@ const ForloebSection = () => {
                         alt={"teaterkoncert stenhus gymnasium 2023"}
                     />
                     </ScrollDwon>
-                    <div className="max-w-[300] py-10 relative bottom-20 md:bottom-10">
+                    <div className="max-w-[300] py-10 relative bottom-20 md:top-0">
                         <ScrollUp>
                         <h3>teaterkoncert</h3>
                         <p>I forbindelse med Stenhus Gymnasiums årlige teaterkoncert, samarbejder Filmskolen Blank med eventuelle frivillige
@@ -67,7 +67,7 @@ const ForloebSection = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row gap-5 relative bottom-10 md:top-40">
+                <div className="flex flex-col md:flex-row gap-5 relative bottom-10 md:bottom-20">
                     <div className="md:order-2 py-20">
                     <ScrollUp>
                     <Image
@@ -79,7 +79,7 @@ const ForloebSection = () => {
                     />
                     </ScrollUp>    
                     </div>   
-                    <div className="max-w-[300] md:order-1 relative bottom-50 md:bottom-0 md:top-10">
+                    <div className="max-w-[300] md:order-1 relative bottom-50 md:bottom-0 md:top-30">
                         <ScrollDwon>
                         <h3>teknik</h3>
                         <p>Vi er ikke helt foruden teknisk arbejde - vi får her et kendskab
@@ -88,7 +88,7 @@ const ForloebSection = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row gap-5 relative bottom-50 md:top-20">
+                <div className="flex flex-col md:flex-row gap-5 relative bottom-50 md:bottom-60">
                     <ScrollDwon>
                     <Image
                         src={"/om/langeprojekt_fotos.webp"}
@@ -97,7 +97,7 @@ const ForloebSection = () => {
                         alt={"legehuset 2023"}
                     />                    
                     </ScrollDwon>
-                    <div className="max-w-[300] py-25 relative bottom-20 md:bottom-10">
+                    <div className="max-w-[300] py-25 relative bottom-20 md:top-10">
                         <ScrollUp>
                         <h3>afslutningsprojekt</h3>
                         <p>Eleverne arbejder slutligt af året på deres lange afgangsprojekt (oftest dokumentar). Der er ingen formelle regler for projektet andet end, at det skal være noget, du kan mærke og kender til. Her bliver man vejledt af underviserne til at finde ud af hvordan den næste scene skal kommme til live.</p>

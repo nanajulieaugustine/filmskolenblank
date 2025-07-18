@@ -1,5 +1,9 @@
+import EleverListCard from "@/components/elever/EleverListCard";
+
 const Elever = () => {
-    return (<div></div>  );
+    return (<div>
+        <EleverListCard/>
+    </div>  );
 }
  
 export default Elever;

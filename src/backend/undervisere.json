@@ -1,0 +1,29 @@
+[{
+    "id": 0,
+    "navn": "theis mØlstrØm christensen",
+    "beskrivelse": "Siden jeg blev færdig på Den Danske Filmskole som instruktør, har jeg udforsket og været optaget af at skabe forløsning i de fortællinger, jeg har skabt. Jeg nåede at lave 30 kort- og novellefilm og fire spillefilm som indspilningsleder, før jeg kom på Filmskolen som instruktør som 21-årig. Det har altid været det bærende for mig at skabe rammen for, at mennesker kunne udvikle sig og opnå en forløsning i filmens rum. Jeg har i 10 år ledet Breidablik film, som har udviklet og produceret tv-formater, dokumentarfilm og corporate content. Jeg har haft de vildeste oplevelser i mange hjørner af verden med at lave film, og hver gang har udfordringerne været forskellige og lært mig noget om at gribe øjeblikket og sammen med holdet få det bedste ud af vores fælles styrke.",
+    "profil": "theis/theis_christensen.webp",
+    "stills":[
+        "theis/still1_theis.webp",
+        "theis/still2_theis.webp",
+        "theis/still3_theis.webp",
+        "theis/still4_theis.webp"
+    ]
+},
+{
+    "id": 1,
+    "navn": "Joachim ÅresØn",
+    "beskrivelse": "",
+    "profil": "joachim/joachim_aaresoen.webp",
+        "stills":[
+    ]
+},
+{
+    "id": 2,
+    "navn": "Erik Borring",
+    "beskrivelse": "",
+    "profil": "erik/erik_borring.webp",
+        "stills":[
+    ]
+}
+]

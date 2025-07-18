@@ -32,7 +32,7 @@ const Hero = ({
             <h1 className="display">filmskolen blank</h1>
             <div className="flex justify-between">
                 <h2 className="red">i holbÆk</h2>
-                <h2 className="red">(anno 2022)</h2>
+                <h2 className="red">(anno 2021)</h2>
             </div>
         </div>
         <ul className="flex flex-col gap-5 yellow uppercase font-bold pb-25 px-(--content-width-lg) italic">

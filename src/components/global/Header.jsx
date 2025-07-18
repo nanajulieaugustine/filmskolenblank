@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Header = () => {
       const pathname = usePathname();
-
+      
   return (
     <nav className="fixed top-0 w-full z-50 transition-colors duration-300 backdrop-blur">
         <div className="flex items-center justify-between py-4 px-8">
