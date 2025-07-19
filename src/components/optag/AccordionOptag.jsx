@@ -20,7 +20,12 @@ const AccordionOptag = () => {
             <div>
                  <p>Motiveret ansøgning skal sendes til <a href="mailto:theis@escapeable.dk" className="underline">theis@escapeable.dk</a>.</p>
                  <p>Hold dig opdateret på Talent Holbæks sociale medier med hensyn til ansøgningsportalens åbning.</p>
-                 <Link href="/optagelse"><p className="yellow hover:scale-103 tranistion-all duration-300 pl-5 uppercase">// Læs mere om ansøgningen her</p></Link>
+                 <Link href="#ansogning">
+                <p className="yellow hover:scale-103 transition-all duration-300 pl-5 uppercase">
+                    // Læs mere om ansøgningen her
+                </p>
+                </Link>
+
             </div>
         </div>
       </AccordionItem>

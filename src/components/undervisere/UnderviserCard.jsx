@@ -26,7 +26,11 @@ const UnderviserCard = () => {
 
                 <ScrollDwon className="relative bottom-10 md:top-20">
                     <div className="p-5">
-                    <h3>{underviser.navn}</h3>
+                        <div className="flex items-baseline gap-2">
+                            <p className="uppercase yellow">{underviser.stilling}</p>
+                            <h3>{underviser.navn}</h3>
+                        </div>
+                    
                     <p className="max-w-lg">{underviser.beskrivelse}</p>
                     </div>
                     <StillsRulle underviser={underviser}/>

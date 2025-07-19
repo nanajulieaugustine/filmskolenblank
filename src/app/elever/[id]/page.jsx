@@ -1,6 +1,7 @@
 import elever from "@/backend/elever.json";
 import generationer from "@/backend/generationer.json";
 import SingleCard from "@/components/elever/singleview/SingleCard";
+import EleverVideo from "@/components/elever/singleview/EleverVideo";
 
 const EleverSingleView = ({ params }) => {
   const { id } = params;
@@ -9,6 +10,7 @@ const EleverSingleView = ({ params }) => {
 
   return (
     <div>
+        <EleverVideo generation={generation}/>
       <SingleCard generation={generation} />
     </div>
   );

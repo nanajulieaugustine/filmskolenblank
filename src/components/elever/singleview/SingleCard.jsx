@@ -9,15 +9,7 @@ const SingleCard = ({generation}) => {
     const elevKort = elever.filter((elev)=> elev.generation === generation.generation)
 
     return ( 
-        <section className="px-(--content-width)">
-            <div className="w-fit mb-5">
-            <h1>{generation.generation}</h1>
-            <div className="flex justify-between">
-            <h3 className="red">{`(${generation.start}`}</h3>
-            <h3 className="red">-</h3>
-            <h3 className="red">{`${generation.slut})`}</h3>
-            </div>
-            </div>
+        <div className="px-(--content-width) mt-5">
            <ul>
             {elevKort.map((elev) => (
                 <li
@@ -44,7 +36,7 @@ const SingleCard = ({generation}) => {
                 </li>
             ))}
             </ul>
-        </section>
+        </div>
      );
 }
  

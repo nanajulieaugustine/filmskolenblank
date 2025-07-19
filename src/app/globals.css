@@ -42,6 +42,11 @@ body {
    }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .display{
   font-size: 128px;
 }

@@ -4,7 +4,7 @@ import ScrollUp from "../animationer/ScrollUp";
 
 const ProcesSection = () => {
     return ( 
-        <div className="px-(--content-width-lg)">
+        <div id="ansogning" className="px-(--content-width-lg)">
             <h2 className="heading2-secondary mb-10">OPTAGELSESPROCESSEN</h2>
             <div>
                 <div className="flex flex-col md:flex-row gap-5 relative top-10">

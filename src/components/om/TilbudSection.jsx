@@ -2,6 +2,8 @@
 import { useRef, useState } from "react";
 import Image from "next/image";
 import { CgArrowLongLeft, CgArrowLongRight } from "react-icons/cg";
+import ScrollUp from "../animationer/ScrollUp";
+import ScrollDwon from "../animationer/ScrollDown";
 
 const TilbudSection = () => {
   const cards = [
@@ -68,7 +70,7 @@ const TilbudSection = () => {
             key={i}
             ref={(el) => (cardRefs.current[i] = el)}
             className="flex-shrink-0 w-[500px] snap-start"
-          >
+          > 
             <Image
               src={card.src}
               height={500}
@@ -76,10 +78,10 @@ const TilbudSection = () => {
               alt={card.alt}
               className="w-[500px] h-[500px] object-cover"
             />
-            <div className="p-5">
+            <ScrollUp className="p-5 relative bottom-5">
             <h3>{card.title}</h3>
             <p>{card.text}</p>
-            </div>
+            </ScrollUp>
           </li>
         ))}
       </ul>
