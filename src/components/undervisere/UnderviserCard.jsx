@@ -7,7 +7,7 @@ import StillsRulle from "./StillsRulle";
 const UnderviserCard = () => {
 
     return ( 
-        <div className="px-(--content-width)">
+        <div className="px-(--content-width) mt-5">
            <ul>
             {undervisere.map((underviser) => (
                 <li

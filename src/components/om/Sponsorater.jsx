@@ -43,7 +43,7 @@ const Sponsorater = () => {
 
       <div className="mt-10 px-(--content-width-lg)">
         <p className="text-(--yellow) uppercase">
-          Er du en virksomhed, der kunne være interesseret i at hjælpe Holbæks lokale filmskole for unge til at fortsætte med at løbe rundt?{" "}
+          Har du en virksomhed, der kunne være interesseret i at hjælpe Holbæks lokale filmskole for unge til at fortsætte med at løbe rundt?{" "}
           Send en mail til <a href="mailto:theis@escapeable.dk" className="underline">theis@escapeable.dk</a> og book et møde!
         </p>
       </div>

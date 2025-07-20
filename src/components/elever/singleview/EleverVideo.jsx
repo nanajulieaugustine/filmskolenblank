@@ -19,6 +19,8 @@ const EleverVideo = ({generation}) => {
       alt={`video af forside på ${generation.generation}`}
       playsInline
       autoPlay
+      loop
+      muted
       className="w-full h-full object-cover"
     >
     </video>
@@ -27,9 +29,8 @@ const EleverVideo = ({generation}) => {
             <section className="w-fit px-(--content-width)">
             <h1>{generation.generation}</h1>
             <div className="flex justify-between">
-            <h3 className="red">{`(${generation.start}`}</h3>
-            <h3 className="red">-</h3>
-            <h3 className="red">{`${generation.slut})`}</h3>
+            <h3 className="red">{`(${generation.start})`}</h3>
+            <h3 className="red">{`(${generation.slut})`}</h3>
             </div>
             </section>
         </div>

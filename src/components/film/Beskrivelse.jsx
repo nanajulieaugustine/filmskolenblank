@@ -5,8 +5,8 @@ import FilmRulleStills from "./FilmRulleStills";
 
 const Beskrivelse = ({film}) => {
     return ( 
-        <div className="flex flex-col md:flex-row">
-        <ScrollUp>
+        <div className="flex flex-col md:flex-row odd:md:flex-row-reverse odd:lg:flex-row">
+        <ScrollUp className="flex justify-center md:justify-start">
                         <Image
                         src={`/film/${film.plakat}`}
                         alt={film.titel}
@@ -15,7 +15,7 @@ const Beskrivelse = ({film}) => {
                         />
                     </ScrollUp>
                     
-                    <ScrollDwon className="py-20">
+                    <ScrollDwon className="relative top-0 md:top-20">
                             <div className="flex items-baseline gap-2 px-5">
                             <p className="uppercase orange">{film.generation}</p>
                             <h3 className="orange">{film.elev}</h3>

@@ -5,7 +5,7 @@ import Link from "next/link";
 const EleverListCard = () => {
     const generationerVideo = generationer.filter((generation)=> generation.active === true);
 
-    return ( <ul>
+    return ( <ul className="h-screen flex flex-col justify-center md:justify-start md:h-full">
         {generationerVideo.slice()
         .reverse().map((generation)=>(
             <li key={generation.generation_id}>

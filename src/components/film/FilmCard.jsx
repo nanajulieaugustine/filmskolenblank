@@ -12,7 +12,7 @@ const FilmCard = ({activeCategory}) => {
     return ( <ul>
         {filteredEvents.length > 0 ? (
         filteredEvents.map((film) => (
-            <li key={film.id} className="flex flex-col mb-25 md:mb-5 lg:flex-row odd:md:flex-row-reverse even:lg-flex-row-reverse">
+            <li key={film.id} className="flex flex-col mb-25 md:mb-20 lg:flex-row even:lg:flex-row-reverse">
             <Beskrivelse film={film}/>
                 <div className="px-5">
                     <iframe
