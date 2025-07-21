@@ -33,7 +33,7 @@ const FilmCard = ({activeCategory, activeGenre}) => {
                     allowFullScreen
                     ></iframe>
                     <div className="flex gap-2 items-baseline">
-                    <p className="pt-2 yellow uppercase">{`// ${film.genre}`}</p>
+                    <p className="pt-2 yellow uppercase">{`//${film.genre}`}</p>
                     <h3 className="italic">{`(${film.år})`}</h3>
                     </div>
                     <p className="max-w-lg">{film.udgivelser}</p>

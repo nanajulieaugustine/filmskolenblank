@@ -1,18 +1,13 @@
 "use client";
-import { useRef } from "react";
-
-const VideoOnHover = ({ generation }) => {
-  const videoRef = useRef(null);
-
+const VideoOnHover = ({ generation, videoRef }) => {
   const handleMouseEnter = () => {
     videoRef.current?.play();
   };
 
   const handleMouseLeave = () => {
-    const video = videoRef.current;
-    if (video) {
-      video.pause();
-      video.currentTime = 0;
+    if (videoRef.current) {
+      videoRef.current.pause();
+      videoRef.current.currentTime = 0;
     }
   };
 
@@ -25,14 +20,13 @@ const VideoOnHover = ({ generation }) => {
       <video
         ref={videoRef}
         src={`/elever/${generation.video}`}
-        alt={`video af forside på ${generation.generation}`}
         playsInline
         muted
         loop
         className="w-full h-full object-cover"
       ></video>
       <h2 className="absolute inset-0 flex items-center justify-center hover:scale-103 transition-all duration-300">
-        {`// ${generation.generation}`}
+        {`//${generation.generation}`}
       </h2>
     </div>
   );

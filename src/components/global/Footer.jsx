@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="bg-linear-to-b from-(--background) to-black h-[200] flex justify-between px-(--content-width) mt-5">
             <div className="flex flex-col">
             <h3 className="white">kontakt</h3>
-            <a className="underline" href="mailto:theis@escapable.dk">theis@escapable.dk</a>
+            <a className="underline no-break" href="mailto:theis@escapable.dk">theis@escapable.dk</a>
             <p>Ahlgade 3F 4300 Holbæk</p>
             <Image
             src={"/logo/logo.png"}

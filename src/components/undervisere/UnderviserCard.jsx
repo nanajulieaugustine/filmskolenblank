@@ -7,7 +7,7 @@ import StillsRulle from "./StillsRulle";
 const UnderviserCard = () => {
 
     return ( 
-        <div className="px-(--content-width) mt-5">
+        <div className="md:px-(--content-width) mt-5">
            <ul>
             {undervisere.map((underviser) => (
                 <li
@@ -20,7 +20,7 @@ const UnderviserCard = () => {
                     alt={underviser.navn}
                     width={500}
                     height={500}
-                    className="relative z-100"
+                    className="relative z-10"
                     />
                 </ScrollUp>
 

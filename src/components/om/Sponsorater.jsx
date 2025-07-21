@@ -13,14 +13,13 @@ const Sponsorater = () => {
     { src: "/logo/talent_holbaek_white.png", alt: "talent holbæk logo" },
   ];
 
-  // Loop så der altid er nok til at fylde viewporten + bevæge sig ubesværet
   const loopSponsorater = [...sponsorater, ...sponsorater, ...sponsorater];
 
   return (
     <div className="overflow-x-hidden w-full py-12">
       <motion.ul
         className="flex w-max gap-10 md:gap-20 items-center"
-        animate={{ x: ["0%", "-33.333%"] }} // Juster så loopet matcher længden
+        animate={{ x: ["0%", "-33.333%"] }}
         transition={{
           repeat: Infinity,
           repeatType: "loop",
@@ -44,7 +43,7 @@ const Sponsorater = () => {
       <div className="mt-10 px-(--content-width-lg)">
         <p className="text-(--yellow) uppercase">
           Har du en virksomhed, der kunne være interesseret i at hjælpe Holbæks lokale filmskole for unge til at fortsætte med at løbe rundt?{" "}
-          Send en mail til <a href="mailto:theis@escapeable.dk" className="underline">theis@escapeable.dk</a> og book et møde!
+          Send en mail til <a href="mailto:theis@escapeable.dk" className="underline no-break">theis@escapeable.dk</a> og book et møde!
         </p>
       </div>
     </div>

@@ -38,21 +38,21 @@ const Hero = ({
         <ul className="flex flex-col gap-5 yellow uppercase font-bold pb-25 px-(--content-width-lg) italic">
             <div className="flex justify-between w-full">
             <li className="hover:scale-105 transition-all duration-300">
-                <Link href="/om">// om</Link>
+                <Link href="/om">//om</Link>
             </li>
             <li className="hover:scale-105 transition-all duration-300">
-                <Link href="/optag">// optag</Link>
+                <Link href="/optag">//optag</Link>
             </li>
             <li className="hover:scale-105 transition-all duration-300">
-                <Link href="/elever">// elever</Link>
+                <Link href="/elever">//elever</Link>
             </li>
             </div>
             <div className="flex justify-between w-full indent-2">
             <li className="hover:scale-105 transition-all duration-300">
-                <Link href="/film">// udgivede film</Link>
+                <Link href="/film">//udgivede film</Link>
             </li>
             <li className="hover:scale-105 transition-all duration-300">
-                <Link href="/undervisere">// undervisere</Link>
+                <Link href="/undervisere">//undervisere</Link>
             </li>
             </div>
         </ul>

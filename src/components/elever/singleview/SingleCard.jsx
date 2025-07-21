@@ -9,7 +9,7 @@ const SingleCard = ({generation}) => {
     const elevKort = elever.filter((elev)=> elev.generation === generation.generation)
 
     return ( 
-        <div className="px-(--content-width) mt-5">
+        <div className="md:px-(--content-width) mt-5">
            <ul>
             {elevKort.map((elev) => (
                 <li
@@ -22,7 +22,7 @@ const SingleCard = ({generation}) => {
                     alt={elev.navn}
                     width={500}
                     height={500}
-                    className="relative z-100"
+                    className="relative z-10"
                     />
                 </ScrollUp>
 

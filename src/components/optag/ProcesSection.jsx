@@ -16,10 +16,10 @@ const ProcesSection = () => {
                         alt={"18 til 18 et halv 2023"}
                     />
                     </ScrollDwon>
-                    <div className="max-w-[300] relative bottom-15 md:bottom-0">
+                    <div className="max-w-[300] relative bottom-10 md:bottom-0">
                     <ScrollUp>
                         <h3>ansØgning</h3>
-                        <p>Du skal sende en motiveret skriftlig ansøgning til <a href="mailto:theis@escapeable.dk" className="underline">theis@escapeable.dk</a>.
+                        <p>Du skal sende en motiveret skriftlig ansøgning til <a href="mailto:theis@escapeable.dk" className="underline no-break">theis@escapeable.dk</a>.
                             Heri skal du forklare hvorfor dét at skabe, betyder noget for dig. Vedhæft evt. kunstneriske værker, du selv har skabt. Formen er fri, og mediet behøver ikke at være film.</p>
                         </ScrollUp>
                     </div>

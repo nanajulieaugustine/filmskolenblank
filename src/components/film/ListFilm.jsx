@@ -29,7 +29,7 @@ const ListFilm = () => {
         <Kategorier activeCategory={activeCategory}
         setActiveCategory={setActiveCategory}/>
         <div className="flex flex-col md:flex-row gap-10 justify-between px-(--content-width)">
-        <span className="yellow italic">{`// ${filteredFilm.length} ud af ${film.length} udgivede film`}</span>
+        <span className="yellow italic">{`//${filteredFilm.length} ud af ${film.length} udgivede film`}</span>
         <SelectGenre activeGenre={activeGenre}
         setActiveGenre={setActiveGenre}/>
         </div>

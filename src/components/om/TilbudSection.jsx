@@ -7,7 +7,7 @@ import ScrollUp from "../animationer/ScrollUp";
 const TilbudSection = () => {
   const cards = [
     {
-      src: "/om/gk-camps.webp",
+      src: "/om/gkcamps.webp",
       alt: "gk-camp ungdomsøen 2023",
       title: "GK-camps",
       text:

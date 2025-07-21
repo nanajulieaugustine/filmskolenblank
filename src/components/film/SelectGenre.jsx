@@ -54,7 +54,7 @@ const SelectGenre = ({ activeGenre, setActiveGenre }) => {
   return (
     <Select
       options={options}
-      placeholder="// Vælg genre"
+      placeholder="//Vælg genre"
       value={options.find(opt => opt.value === activeGenre)}
       onChange={selected => setActiveGenre(selected ? selected.value : "")}
       isClearable

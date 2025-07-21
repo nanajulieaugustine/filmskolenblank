@@ -7,7 +7,7 @@ const Kategorier = ({ activeCategory, setActiveCategory }) => {
 
   return (
     <ul className="flex flex-col gap-5 yellow uppercase font-bold mt-15 mb-5 px-(--content-width-lg) italic">
-      <div className="flex justify-between w-full">
+      <div className="flex gap-5 justify-between w-full">
         {førsteRække.map((generation) => (
           <li
             key={generation.generation_id}
@@ -25,13 +25,13 @@ const Kategorier = ({ activeCategory, setActiveCategory }) => {
                     : "yellow"
                 }
               >
-                {`// ${generation.generation}`}
+                {`//${generation.generation}`}
               </h3>
             </button>
           </li>
         ))}
       </div>
-      <div className="flex justify-between w-full indent-5 md:indent-15 pr-15">
+      <div className="flex gap-5 justify-between w-full indent-5 md:indent-15 pr-15">
         {andenRække.map((generation) => (
           <li
             key={generation.generation_id}
@@ -49,7 +49,7 @@ const Kategorier = ({ activeCategory, setActiveCategory }) => {
                     : "yellow"
                 }
               >
-                {`// ${generation.generation}`}
+                {`//${generation.generation}`}
               </h3>
             </button>
           </li>

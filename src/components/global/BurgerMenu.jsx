@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const BurgerMenu = ({ isVisible, closeMenu }) => {
   const links = [
-    { href: "/om", text: "// Om" },
-    { href: "/optag", text: "// Optag" },
-    { href: "/elever", text: "// Elever" },
-    { href: "/film", text: "// Udgivede film" },
-    { href: "/undervisere", text: "// Undervisere" },
+    { href: "/om", text: "//Om" },
+    { href: "/optag", text: "//Optag" },
+    { href: "/elever", text: "//Elever" },
+    { href: "/film", text: "//Udgivede film" },
+    { href: "/undervisere", text: "//Undervisere" },
   ];
 
   return (
