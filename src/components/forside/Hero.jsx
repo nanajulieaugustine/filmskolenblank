@@ -47,7 +47,7 @@ const Hero = ({
                 <Link href="/elever">//elever</Link>
             </li>
             </div>
-            <div className="flex justify-between w-full indent-2">
+            <div className="flex justify-between w-full indent-5">
             <li className="hover:scale-105 transition-all duration-300">
                 <Link href="/film">//udgivede film</Link>
             </li>

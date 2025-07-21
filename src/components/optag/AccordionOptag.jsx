@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const AccordionOptag = () => {
     return ( 
-        <div className="p-10 w-[300] md:w-[550px]">
+        <div className="p-10  md:w-[550px]">
         <Accordion>
          <AccordionItem title="//HvornÅr er der optagelsesprØve?">
         <div className="flex justify-between  items-center py-2 text-(--foreground)">
