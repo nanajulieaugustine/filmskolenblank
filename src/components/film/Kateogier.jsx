@@ -1,7 +1,7 @@
 import generationer from "@/backend/generationer.json";
 
 const Kategorier = ({ activeCategory, setActiveCategory }) => {
-  // Split generationer i to grupper, hvis du vil have to rækker:
+
   const førsteRække = generationer.slice(0, 3);
   const andenRække = generationer.slice(3);
 
@@ -31,7 +31,7 @@ const Kategorier = ({ activeCategory, setActiveCategory }) => {
           </li>
         ))}
       </div>
-      <div className="flex justify-between w-full indent-15 pr-15">
+      <div className="flex justify-between w-full indent-5 md:indent-15 pr-15">
         {andenRække.map((generation) => (
           <li
             key={generation.generation_id}

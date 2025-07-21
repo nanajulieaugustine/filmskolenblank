@@ -15,7 +15,7 @@ export const AccordionItem = ({ title, children }) => {
           setIsOpen(!isOpen);
         }}
       >
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between gap-10 items-center">
           {isOpen ? <HiMinus color="white" size={20} /> : <HiPlus color="white" size={20} />}
             <h3>{title}</h3>
         </div>

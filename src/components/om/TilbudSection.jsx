@@ -3,7 +3,6 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import { CgArrowLongLeft, CgArrowLongRight } from "react-icons/cg";
 import ScrollUp from "../animationer/ScrollUp";
-import ScrollDwon from "../animationer/ScrollDown";
 
 const TilbudSection = () => {
   const cards = [
@@ -63,13 +62,13 @@ const TilbudSection = () => {
 
       <ul
         ref={containerRef}
-        className="flex overflow-x-auto snap-x snap-mandatory gap-10 scroll-smooth"
+        className="flex overflow-x-auto snap-x snap-mandatory gap-5 md:gap-10 scroll-smooth"
       >
         {cards.map((card, i) => (
           <li
             key={i}
             ref={(el) => (cardRefs.current[i] = el)}
-            className="flex-shrink-0 w-[500px] snap-start"
+            className="flex-shrink-0 w-[300px] md:w-[500px] snap-start"
           > 
             <Image
               src={card.src}
@@ -86,7 +85,7 @@ const TilbudSection = () => {
         ))}
       </ul>
 
-      <div className="flex gap-10 justify-center">
+      <div className="flex gap-10 justify-center relative bottom-20 md:bottom-15">
         <button
           aria-label="gå tilbage"
           onClick={slidePrev}

@@ -2,22 +2,32 @@ import film from "@/backend/film.json"
 import Button from "../global/Button";
 import Beskrivelse from "./Beskrivelse";
 
-const FilmCard = ({activeCategory}) => {
+const FilmCard = ({activeCategory, activeGenre}) => {
 
-  const filteredEvents = film.filter((film) => {
-    if (activeCategory === "vis alle") return true;
-    return film.generation.toLowerCase() === activeCategory.toLowerCase();
-  });
+  const filteredFilm = film.filter(film => {
+  const matchCategory =
+    activeCategory === "vis alle" ||
+    film.generation.toLowerCase() === activeCategory.toLowerCase();
+
+      const matchGenre =
+        !activeGenre ||
+        film.genre
+          .split(",")
+          .map(g => g.trim().toLowerCase())
+          .includes(activeGenre);
+
+      return matchCategory && matchGenre;
+    });
 
     return ( <ul>
-        {filteredEvents.length > 0 ? (
-        filteredEvents.map((film) => (
+        {filteredFilm.length > 0 ? (
+        filteredFilm.map((film) => (
             <li key={film.id} className="flex flex-col mb-25 md:mb-20 lg:flex-row even:lg:flex-row-reverse">
             <Beskrivelse film={film}/>
                 <div className="px-5">
                     <iframe
                     src={film.trailer}
-                    className="h-[200] w-[500]"
+                    className="h-[200] w-[300] md:h-[200] md:w-[500]"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

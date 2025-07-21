@@ -22,7 +22,7 @@ export default function HeroSection() {
     >
       <motion.div
         style={{ x }}
-        className="absolute top-20 left-0 flex"
+        className="absolute top-40 md:top-20 left-0 flex"
       >
         <Image
           src="/om/filmrulle.webp"

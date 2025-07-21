@@ -28,7 +28,7 @@ const Hero = ({
       />
  
       <div className="relative z-10 white flex flex-col justify-between h-full px-(--content-width)">
-        <div className="relative top-[10%] md:top-[40%]">
+        <div className="relative top-[30%] md:top-[40%]">
             <h1 className="display">filmskolen blank</h1>
             <div className="flex justify-between">
                 <h2 className="red">i holbÆk</h2>
