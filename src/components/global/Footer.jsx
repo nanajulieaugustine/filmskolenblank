@@ -10,6 +10,7 @@ const Footer = () => {
             <h3 className="white">kontakt</h3>
             <a className="underline no-break" href="mailto:theis@escapable.dk">theis@escapable.dk</a>
             <p>Ahlgade 3F 4300 Holbæk</p>
+            <p>CVR (Holbæk Kommune): 29189447</p>
             <Image
             src={"/logo/logo.png"}
             alt={"blanks logo"}
