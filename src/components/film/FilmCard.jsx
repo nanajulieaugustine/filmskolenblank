@@ -44,7 +44,7 @@ const FilmCard = ({activeCategory, activeGenre}) => {
             </li>
               ))
       ) : (
-        <div className="min-h-screen">
+        <div className="min-h-screen px-(--content-width)">
           <p className="uppercase flex items-center justify-center">
             Der er i Øjeblikket ingen udgivede film fra denne generation.
           </p>

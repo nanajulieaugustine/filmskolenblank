@@ -24,7 +24,9 @@ const koulen = Koulen({
 
 export const metadata = {
   title: "Filmskolen Blank",
-  description: "",
+  icons: {
+    icon: "logo/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {

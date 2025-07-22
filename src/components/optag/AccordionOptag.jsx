@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const AccordionOptag = () => {
     return ( 
-        <div className="p-10  md:w-[550px]">
+        <div className="p-10 md:w-[300px] lg:w-[550px]">
         <Accordion>
          <AccordionItem title="//HvornÅr er der optagelsesprØve?">
         <div className="flex justify-between  items-center py-2 text-(--foreground)">
             <div>
-                 <p>Optagelsesprøven finder som regel sted den første weekend i September på Stenhus Gymnasium. <br/> Ansøgere vil hermed få en skriftlig indkaldelse på mail. </p>
+                 <p>Optagelsesprøven finder som regel d. 7. september 2025.<br/> Ansøgere vil hermed få en skriftlig indkaldelse på mail. </p>
             </div>
         </div>
       </AccordionItem>

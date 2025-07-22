@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const AccordionCard = () => {
     return ( 
-        <div className="p-10 md:w-[550]">
+        <div className="p-10 md:w-[300px] lg:w-[550]">
         <Accordion>
          <AccordionItem title="//Lokation">
         <div className="flex justify-between items-center py-2 text-(--foreground)">
