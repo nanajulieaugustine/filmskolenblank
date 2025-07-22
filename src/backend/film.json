@@ -1,0 +1,77 @@
+[{
+    "id": 0,
+    "titel": "tabte År",
+    "år": "2023",
+    "beskrivelse": "Er det okay at være egoist hvis man er syg? Dortes sygdom fylder hele hendes liv, og hun kan ikke længere skelne mellem at være patient eller mor og kone. Hun er blevet distanceret fra sin familie og dynamikken bliver nu sat på prøve. Dorte har i lægesystemet ikke følt sig forstået, og som følge af dette, nægter hun at lytte til andre når det kommer til hendes håndtering af sin sygdom. Kan Dorte lære at se sig selv fra et andet perspektiv og finde tilbage til den person, hun egentlig er? Tabte år er en rørende, modig og intens fortælling af relationer i opbrud, udviklet fra øjnene af Dortes datter. Dokumentaren fremstiller en atypisk familiedynamik med komplekse problemer, der rejser spørgsmål til hvem du egentlig skal have empati for.",
+    "generation": "generation 1",
+    "udgivelser": "Tabte År havde premiere i Kulturbiografen d. 29 maj 2023. Filmen blev vist i biografen den 30. og 31. Maj. Siden da har filmen vundet Outstanding Achievement i best first time filmmaker på Swedish International Film Festival, nomineret i best first time filmmaker på Varoius Artists Film festival (Chicago), og er en del af den official selection på Toronto International Women Film Festival. Tabte År kan ses på Blanks Youtube kanal.",
+    "trailer": "https://www.youtube.com/embed/U5Qw-hQCE78?si=G5IuvwmAfGwsdjKY",
+    "elev": "nana julie augustine",
+    "genre": "dokumentar",
+    "plakat": "generation1/tabte_aar/tabte_aar_plakat.webp",
+    "film": "https://youtu.be/5KD04GPbdWA",
+    "stills":[
+        "generation1/tabte_aar/still1_nana.webp",
+        "generation1/tabte_aar/still2_nana.webp",
+        "generation1/tabte_aar/still3_nana.webp",
+        "generation1/tabte_aar/still4_nana.webp"
+    ]
+},
+{
+    "id": 1,
+    "titel": "alma",
+    "år": "2023",
+    "beskrivelse": "18 årige Alma flytter hjemmefra for første gang. Hun oplever presset ved at starte et tidligt voksenliv, og hverdagen går langsomt i stå. Alma møder ikke længere op i skole, hvilket starter en ond spiral af overtænkning og søvnløshed. Hvordan tager Alma imod hjælp når glasset flyder over? Dokumentaren følger Alma over to svære perioder med et års mellemrum, skabt af Almas tætte veninde. Filmen kommer helt tæt på livet af en ung sårbar kvinde med mod, omsorg og viljestyrke.",
+    "generation": "generation 1",
+    "udgivelser": "Alma kan ses på Blanks Youtube-kanal.",
+    "trailer": "https://www.youtube.com/embed/G-gmitGfsYI?si=8SZWI_VICvS4UOzY",
+    "elev": "matilde wegener",
+    "genre": "dokumentar",
+    "plakat": "generation1/alma/alma_plakat.webp",
+    "film": "https://youtu.be/4N7LGr4ZQp4?si=yd7Ag7uw-mi6vz9o",
+    "stills":[
+        "generation1/alma/still1_matilde.webp",
+        "generation1/alma/still2_matilde.webp",
+        "generation1/alma/still3_matilde.webp",
+        "generation1/alma/still4_matilde.webp"
+    ]
+},
+{
+    "id": 2,
+    "titel": "en bror fortÆlling",
+    "år": "2022",
+    "beskrivelse": "Troels er storebror til instruktøren Anders. I En Bror Fortælling kommer det til udtryk hvordan Anders ser sin bror, og erklærer sin ubetingede kærlighed overfor ham. Hvordan er forholdet mellem brødre og hvilken uskreven kærlighed ligger der mellem de to? Anders fortæller en historie om et broderskab, en ven og et forbillede.",
+    "generation": "generation 1",
+    "udgivelser": "En Bror Fortælling kan ses på Blanks Youtube-kanal.",
+    "trailer": "https://www.youtube.com/embed/yXgOVS0xIOk?si=UFFTAYvkf6MUS9gy",
+    "elev": "anders edward nevin wille",
+    "genre": "dokumentar",
+    "plakat": "generation1/en_bror_fortaelling/en_bror_fortaelling_plakat.webp",
+    "film": "https://youtu.be/2qLqy-kEWc0?si=TQ5Oc9jHjSZuzfOl",
+    "stills":[
+        "generation1/en_bror_fortaelling/still1_anders.webp",
+        "generation1/en_bror_fortaelling/still2_anders.webp",
+        "generation1/en_bror_fortaelling/still3_anders.webp",
+        "generation1/en_bror_fortaelling/still4_anders.webp"
+    ]
+},
+{
+    "id": 3,
+    "titel": "blomsterdreng",
+    "år": "2024",
+    "beskrivelse": "Stefan lever sit liv gennem sine egne linser. Dans, illusioner og sjov er nødvendigt i hans liv for ikke at komme til kende med sin egen ensomhed. Hvordan håndterer Stefan at gå igennem modgangen, der kommer med at bo alene?",
+    "generation": "generation 3",
+    "udgivelser": "Blomsterdreng kan ses på Blanks Youtube-kanal.",
+    "trailer": "https://www.youtube.com/embed/TYr_cTSXOO4?si=IADCYZF6mJlcj6CE",
+    "elev": "kevin mØlgaard",
+    "genre": "fiktion, kortfilm",
+    "plakat": "generation3/blomsterdreng/blomsterdreng_plakat.webp",
+    "film": "https://youtu.be/2WiVUfN8WQc",
+    "stills":[
+        "generation3/blomsterdreng/still1_kevin.webp",
+        "generation3/blomsterdreng/still2_kevin.webp",
+        "generation3/blomsterdreng/still3_kevin.webp",
+        "generation3/blomsterdreng/still4_kevin.webp"
+    ]
+}
+]

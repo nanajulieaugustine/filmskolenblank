@@ -1,0 +1,39 @@
+[
+    {
+        "generation_id": 0,
+        "generation": "vis alle",
+        "active": false
+    },
+    {
+    "generation": "generation 1",
+    "video": "generation1_produktliste.mp4",
+    "start": "2021",
+    "slut": "2023",
+    "generation_id": "1",
+    "active": true
+},
+{
+    "generation": "generation 2",
+    "video": "generation2_produktliste.mp4",
+    "start": "2022",
+    "slut": "2023",
+    "generation_id": "2",
+    "active": true
+},
+{
+    "generation": "generation 3",
+    "video": "generation3_produktliste.mp4",
+    "start": "2023",
+    "slut": "2024",
+    "generation_id": "3",
+    "active": true
+},
+{
+    "generation": "generation 4",
+    "video": "",
+    "start": "2024",
+    "slut": "2025",
+    "generation_id": "4",
+    "active": false
+}
+]
