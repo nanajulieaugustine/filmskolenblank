@@ -20,19 +20,19 @@ const Footer = () => {
             <div className="flex flex-col justify-between">
             <Image
             src={"/logo/talent_holbaek_white.png"}
-            alt={"talent holbæks logo"}
+            alt={"talent holbæk logo"}
             width={50}
             height={50}
             />
             <Image
             src={"/logo/kulturskolen_white.png"}
-            alt={"kulturskolens logo"}
+            alt={"kulturskolen logo"}
             width={50}
             height={50}
             />
             <Image
             src={"/logo/stenhus_gymnasium_white.png"}
-            alt={"stenhus gymnasiums logo"}
+            alt={"stenhus gymnasium logo"}
             width={50}
             height={50}
             />
