@@ -22,7 +22,7 @@ const StillsRulle = ({ underviser }) => {
         {Array.from({ length: 3 })
           .flatMap(() => underviser.stills)
           .map((still, index) => (
-            <div
+            <li
               key={`${underviser.id}-${index}`}
               className="flex-shrink-0 w-[150px] h-[100px] relative"
             >
@@ -32,7 +32,7 @@ const StillsRulle = ({ underviser }) => {
                 fill
                 className="object-cover"
               />
-            </div>
+            </li>
           ))}
       </motion.ul>
     </div>

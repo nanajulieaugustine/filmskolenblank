@@ -22,7 +22,7 @@ const FilmRulleStills = ({ film }) => {
         {Array.from({ length: 3 })
           .flatMap(() => film.stills)
           .map((still, index) => (
-            <div
+            <li
               key={`${film.id}-${index}`}
               className="flex-shrink-0 w-[150px] h-[100px] relative"
             >
@@ -32,7 +32,7 @@ const FilmRulleStills = ({ film }) => {
                 fill
                 className="object-cover"
               />
-            </div>
+            </li>
           ))}
       </motion.ul>
     </div>

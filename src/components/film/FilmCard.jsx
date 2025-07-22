@@ -25,7 +25,7 @@ const FilmCard = ({activeCategory, activeGenre}) => {
             <li key={film.id} className="flex flex-col mb-25 md:mb-20 lg:flex-row even:lg:flex-row-reverse">
             <Beskrivelse film={film}/>
                 <div className="px-5">
-                    <iframe
+                    <iframe title={`trailer af ${film.titel}`}
                     src={film.trailer}
                     className="h-[200] w-[300] md:h-[200] md:w-[500]"
                     frameBorder="0"

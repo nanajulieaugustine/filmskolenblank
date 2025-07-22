@@ -26,7 +26,7 @@ export default function FilmHero() {
             />
         </motion.div>
 
-        <section className="flex flex-col justify-end gap-2 grow ml-5">
+        <section className="flex flex-col justify-end gap-2 grow p-5">
             <h1>udgivede film</h1>
             <p className="max-w-md">På Blank er det ikke at krav at udgive dine produktioner. Vi arbejder med film af dig, til dig. </p>
             <p className="max-w-md">Dog er der mulighed for at tage filmen videre til næste skridt gennem Blanks vejledning. </p>
