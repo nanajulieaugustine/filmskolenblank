@@ -64,7 +64,7 @@
     "udgivelser": "Blomsterdreng kan ses på Blanks Youtube-kanal.",
     "trailer": "https://www.youtube.com/embed/TYr_cTSXOO4?si=IADCYZF6mJlcj6CE",
     "elev": "kevin mØlgaard",
-    "genre": "fiktion",
+    "genre": "kortfilm",
     "plakat": "generation3/blomsterdreng/blomsterdreng_plakat.webp",
     "film": "https://youtu.be/2WiVUfN8WQc",
     "stills":[
@@ -72,6 +72,25 @@
         "generation3/blomsterdreng/still2_kevin.webp",
         "generation3/blomsterdreng/still3_kevin.webp",
         "generation3/blomsterdreng/still4_kevin.webp"
+    ]
+},
+{
+    "id": 4,
+    "titel": "hirakiet",
+    "år": "2025",
+    "beskrivelse": "Sebastian og Kasper er gymnasievenner, der er blevet inviteret til en fest. Men aftenen tager en ubehagelig drejning da Kasper gør det klart, at vejen til toppen af skolens hierarki kræver, at Sebastian drikker – noget han bestemt ikke er tryg ved.",
+    "generation": "generation 4",
+    "udgivelser": "Hirakiet kan ses på Blanks Youtube-kanal.",
+    "trailer": "https://www.youtube.com/embed/hTd9VuBWrlE?si=Dxf1FNZejuI1gtHk",
+    "elev": "Lucas SØrensen",
+    "genre": "fiktionsøvelse",
+    "plakat": "generation4/hirakiet/hirakiet_plakat.webp",
+    "film": "https://youtu.be/hTd9VuBWrlE",
+    "stills":[
+        "generation4/hirakiet/still1_lucas.webp",
+        "generation4/hirakiet/still2_lucas.webp",
+        "generation4/hirakiet/still3_lucas.webp",
+        "generation4/hirakiet/still4_lucas.webp"
     ]
 }
 ]
